@@ -1,0 +1,17 @@
+{
+	"name": "JS_Algo_Frequency_Counter",
+	"description": "Javascript Algorithms and Data Structures Masterclass course",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Eliyahu Koren <elik.koren@gmail.com>",
+	"license": "MIT",
+	"categories": [
+		"Udemy",
+		"Javascript",
+		"algorithm",
+		"Jest"
+	],
+	"scripts": {
+		"test": "jest"
+	}
+}
