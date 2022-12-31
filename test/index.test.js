@@ -21,6 +21,7 @@ describe("NON Anagram words", () => {
 		expect(validAnagram("aaz", "zza")).toEqual(false);
 		expect(validAnagram("awesome", "awesom")).toEqual(false);
 		expect(validAnagram("amanaplanacanalpanama", "acanalmanplanpanama")).toEqual(false);
+		expect(validAnagram("aaaaa", "aabaa")).toEqual(false);
 	});
 });
 
