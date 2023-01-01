@@ -24,13 +24,16 @@ const validAnagram = (first, second) => {
 };
 
 const areThereDuplicates = function (){
+	// no arguments, no duplicates
 	if (arguments.length < 1) return false;
 
 	let lookup = {};
 
+	// loop over arguments and search for duplicates
 	for (let i = 0; i < arguments.length; i ++) {
 		let val = arguments[i];
 
+		// already exists ? duplicate found
 		if (lookup[val]) {
 			return true;
 		}
