@@ -23,6 +23,7 @@ const validAnagram = (first, second) => {
 	return true;
 };
 
+// Frequency Counter Version
 const areThereDuplicates = function (){
 	// no arguments, no duplicates
 	if (arguments.length < 1) return false;

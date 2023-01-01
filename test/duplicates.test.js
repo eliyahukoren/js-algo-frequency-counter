@@ -1,6 +1,6 @@
 const { areThereDuplicates } = require("../index");
 
-describe("Testing Are There Duplicates", () => {
+describe("Testing Are There Duplicates - Frequency Counter", () => {
 	describe("Test if function is exists", () => {
 		it("Function exists", () => {
 			expect(areThereDuplicates).toBeDefined();
